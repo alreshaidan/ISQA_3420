@@ -5,7 +5,8 @@ this is the data flow disagram for the class project
 
 this is just to get my commnit rate up
 
-![dfd 1](https://cloud.githubusercontent.com/assets/21317650/18803753/af7b88fc-81b8-11e6-9f15-a7731e2f705f.jpg)
+![dfd 2](https://cloud.githubusercontent.com/assets/21317650/18858133/b36e52b0-841e-11e6-944b-d6cab39012de.jpg)
+
 
 
 
