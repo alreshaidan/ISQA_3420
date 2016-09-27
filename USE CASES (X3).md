@@ -1,10 +1,10 @@
-Title
+Title: Retrieve full list of Packages and Corresponding License Info
 
-Primary Actor
+Primary Actor: Manager
 
-Goal in Context
+Goal in Context: The corporate manager is able to Retrieve full list of Packages and Corresponding License Info from Package & License. Info 
 
-Stakeholders
+Stakeholders:
 
 Preconditions
 
