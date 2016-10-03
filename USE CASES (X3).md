@@ -4,11 +4,12 @@ Primary Actor: Manager
 
 Goal in Context: The corporate manager is able to Retrieve full list of Packages and Corresponding License Info from Package & License. Info 
 
-Stakeholders:
+Stakeholders: Developer / Manager 
 
-Preconditions
+Preconditions :
+resive information package from  nist vulnerability database
 
-Main Success Scenario
+Main Success Scenario:
 
 Failed End Conditions
 
