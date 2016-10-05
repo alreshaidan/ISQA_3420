@@ -1,3 +1,0 @@
-Bader
-Ahmed
-Alreshaidan
