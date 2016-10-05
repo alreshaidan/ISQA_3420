@@ -1,3 +1,4 @@
+#UseCase: 1
 Title: Retrieve full list of Packages and Corresponding License Info
 
 Primary Actor: Manager
@@ -6,11 +7,14 @@ Goal in Context: The corporate manager is able to Retrieve full list of Packages
 
 Stakeholders: Developer / Manager 
 
-Preconditions :
-resive information package from  nist vulnerability database
+Preconditions: Resive information open source and Scan from package and  nist vulnerability database
 
-Main Success Scenario:
+Main Success Scenario: Coroporate  manager from software package & license info 
 
-Failed End Conditions
+Failed End Conditions: Not get the information from  software package & license info
 
-Trigger
+Trigger: Oopen source / data store 
+ 
+#UseCase: 2
+Title: Scan information from nist vulnerability database
+ 
