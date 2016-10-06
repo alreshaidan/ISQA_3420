@@ -12,7 +12,7 @@ Preconditions: The Manager can send requests to license and vulnerability inform
  
 Main Success Scenario: Manager get the informatio from software package & license information 
    
-Failed End Conditions: Manager does not get the information from  software package & license information (Write this out. Be a bit more descriptive)
+Failed End Conditions: Manager does not get the information from  software package & license information
   
 Trigger: Manager approval in the request. 
 
