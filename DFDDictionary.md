@@ -16,4 +16,5 @@ Package and Info Request - Request by manager for pacakage and info.
 
 Package and Info Response - Response to manager for package and info. 
 
+Data Store : NIST Vulnerability DB / Software Package & License Info 
 
