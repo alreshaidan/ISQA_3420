@@ -9,12 +9,13 @@ Goal in Context: The Corporate Manager is able to retrieve license and vulnerabi
 Stakeholders: Developer / Manager 
   
 Preconditions: The Manager can send requests to license and vulnerability information in the DB
+There are other preconditions here -- like the propoer information in the DB... 
  
-Main Success Scenario: Manager get the informatio from software package & license information 
+Main Success Scenario: Manager get the license and vulnerability information from software package & license information database
    
-Failed End Conditions: Manager does not get the information from  software package & license information
+Failed End Conditions: Manager does not get the information from  software package & license information -- update this a bit to be inline with the main success
   
-Trigger: Manager approval in the request. 
+Trigger: Manager request for software project license and vulnerability information 
 
    
 #UseCase: 2
