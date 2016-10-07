@@ -10,11 +10,11 @@ Stakeholders: Developer / Manager
   
 Preconditions: The Manager can send requests to license and vulnerability information in the DB
  
-Main Success Scenario: Manager get the informatio from software package & license information 
+Main Success Scenario: Manager get the license and vulnerability information from software package & license information database.  
    
 Failed End Conditions: Manager does not get the information from  software package & license information
   
-Trigger: Manager approval in the request. 
+Trigger: Manager request for software project license and vulnerability information. 
 
    
 #UseCase: 2
