@@ -8,7 +8,7 @@ Goal in Context: The Corporate Manager is able to retrieve license and vulnerabi
   
 Stakeholders: Developer / Manager 
   
-Preconditions: The Manager can send requests to license and vulnerability information in the DB
+Preconditions: The Manger need to send request to project process to Receive the license and vulnerability information from the Policy Data store.
  
 Main Success Scenario: Manager get the license and vulnerability information from software package & license information database.  
    
