@@ -10,7 +10,7 @@
 
 **OSS licence and vulnerability information-** The Checked for OSS Components send Request to Software Package & License Info Datastore then to Retrieve license and Vulnerability Information for requested software project also send to the Manager and Developer.
 
-**OSS licence and vulnerability information-** The Software Package & License Info Datastore send Results to Retrieve license and Vulnerability Information for requested software project then Manager and Developer. 
+**OSS licence and vulnerability information-** The Software Package & License Info Datastore send Results to Retrieve license and Vulnerability Information for requested software project then Manager and Developer.
 
 **SW project request-** The Manager and Developer send Request to Retrieve license and Vulnerability Information for requested software project then to The Software Package & License Info Datastore.
 
@@ -35,19 +35,19 @@
 
 **Scan for Licenses-** Process that scans for any licenses that can be found in the program.
 
-**Retrieve license and Vulnerability Information for requested software project-**
+**Retrieve license and Vulnerability Information for requested software project-** Project request process.
+ 
+**Refer Policy-** Refer to the policies of organization set by Manager.
 
-**Refer Policy-**
+**Read and Modify policy-** Help in reading and modifying the existing policies.
 
-**Read and Modify policy-**
-
-**Submit policy-**
+**Submit policy-** Help in submitting the new and approved policies.
 
 #Data store 
 
-**NIST Vulnerability DB-** the storage called National Institute of Standards and Technology Vulnerability Database 
+**NIST Vulnerability DB-** the storage called National Institute of Standards and Technology Vulnerability Database. 
 
-**Software Package & License Info-** the storage called Software Package & License Info
+**Software Package & License Info-** the storage called Software Package & License Info.
 
-**Policy Data store-** the storage policies called Policy Data store
+**Policy Data store-** the storage policies called Policy Data store.
  
