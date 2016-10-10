@@ -33,7 +33,7 @@
 
 **Checked for OSS Components-** Process that checks for open source software in the file.
 
-**Scan for Licenses-** process that scans for any licenses that can be found in the program.
+**Scan for Licenses-** Process that scans for any licenses that can be found in the program.
 
 **Retrieve license and Vulnerability Information for requested software project-**
 
