@@ -45,9 +45,9 @@
 
 #Data store 
 
-**NIST Vulnerability DB-** the storage called National Institute of Standards and Technology Vulnerability Database. 
+**NIST Vulnerability DB-** The storage called National Institute of Standards and Technology Vulnerability Database. 
 
-**Software Package & License Info-** the storage called Software Package & License Info.
+**Software Package & License Info-** The storage called Software Package & License Info.
 
-**Policy Data store-** the storage policies called Policy Data store.
+**Policy Data store-** The storage policies called Policy Data store.
  
