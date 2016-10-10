@@ -1,20 +1,53 @@
-Developer - Person responsible for all the coding the main software packages and preparing for the license scan.
+#Data Flow 
 
-Manager - Advisor for the software packages. 
+**Software package-** The Developer send request to Checked for OSS Components then send to Scan for Licenses.
 
-Software Package - Multiple code files that make up a software.
+**Software package Licenses Results-** The Scan for Licenses send Results to Checked for OSS Components then send to Developer.
 
-Checked for OSS Components - Process that checks for open source software in the file.
+**Software Package Name-** The Checked for OSS Components send Request to NIST Vulnerability DB.
 
-OSS Results - The results returned after being checked for OSS components.
+**Vulnerabilities for package-** The Checked for OSS Components received Results from NIST Vulnerability DB.
 
-Scan for Licenses - Process that scans for any licenses that can be found in the program.
+**OSS licence and vulnerability information-** The Checked for OSS Components send Request to Software Package & License Info Datastore then to Retrieve license and Vulnerability Information for requested software project also send to the Manager and Developer.
 
-Request for package and license info - Process where manager requests package for corresponding license info. 
+**OSS licence and vulnerability information-** The Software Package & License Info Datastore send Results to Retrieve license and Vulnerability Information for requested software project then Manager and Developer. 
 
-Package and Info Request - Request by manager for pacakage and info. 
+**SW project request-** The Manager and Developer send Request to Retrieve license and Vulnerability Information for requested software project then to The Software Package & License Info Datastore.
 
-Package and Info Response - Response to manager for package and info. 
+**Policy request -** The Manager and the Developer sends Policy request to Refer Policy then to OSS Policy Datastore.
 
-Data Store : NIST Vulnerability DB / Software Package & License Info 
+**Policy information-** The OSS Policy Datastore send results to Refer Policy then to Manager and Developer.
 
+**Policy doc-** The Manager send request to Read and Modify Policy then send the request to Submit Policy then to OSS Policy Datastore. 
+
+**Policy information-** The OSS Policy Datastore send results to Submit Policy then send the results to Read and Modify Policy then to Manager.
+
+
+#Entities 
+
+**Developer-** Person responsible for all the coding the main software packages and preparing for the license scan.
+
+**Manager-** Advisor for the software packages.
+
+#Processes
+
+**Checked for OSS Components-**
+
+**Scan for Licenses-**
+
+**Retrieve license and Vulnerability Information for requested software project-**
+
+**Refer Policy-**
+
+**Read and Modify policy-**
+
+**Submit policy-**
+
+#Data store 
+
+**NIST Vulnerability DB-** the storage called National Institute of Standards and Technology Vulnerability Database 
+
+**Software Package & License Info-** the storage called Software Package & License Info
+
+**Policy Data store-** the storage policies called Policy Data store
+ 
