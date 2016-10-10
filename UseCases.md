@@ -19,37 +19,37 @@
    
 #UseCase: 2
 
-**Title:** Scan information from nist vulnerability database
+**Title:** Retrieve to checked for open sours Software components from NIST Vulnerability. 
  
-**Primary Actor:**
+**Primary Actor:** Developer. 
 
-**Goal in Context:**
+**Goal in Context:** To successes checked for open source Software components.
 
-**Stakeholders:**
+**Stakeholders:** Developer / Manager.
 
-**Preconditions:**
+**Preconditions:** The Developer send request to checked for open source Software components to receive result from NIST Vulnerability DB.
 
-**Main Success Scenario:**
+**Main Success Scenario:** Developer get the software package Results from the NIST Vulnerability DB. 
 
-**Failed End Conditions:**
+**Failed End Conditions:** Developer not get the result from the NIST Vulnerability DB.
 
-**Trigger:**
+**Trigger:** Developer request for software package license.   
 
 
 #UseCase: 3
 
-**Title:**
+**Title:** Determine the  Open Source Software to get  Refer policy. 
 
-**Primary Actor:**
+**Primary Actor:** Developer.
 
-**Goal in Context:**
+**Goal in Context:** Successes determine open source software. 
 
-**Stakeholders:**
+**Stakeholders:** Developer / Manager.
 
-**Preconditions:**
+**Preconditions:** The developer send request to refer policy process to receive from the OSS Policy Datastore.
 
-**Main Success Scenario:**
+**Main Success Scenario:** Developer get the policy DB from the policy process by the OOS Policy Datastore.
 
-**Failed End Conditions:**
+**Failed End Conditions:** Developer not get the policy DB from the policy process by the OOS Policy Datastore.
 
-**Trigger:**
+**Trigger:** Developer request for open source software policy DB.
