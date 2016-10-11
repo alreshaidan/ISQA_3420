@@ -19,37 +19,39 @@
    
 #UseCase: 2
 
-**Title:** Retrieve to checked for open sours Software components from NIST Vulnerability. 
- 
-**Primary Actor:** Developer. 
+**Title:** Request for Software Package License
 
-**Goal in Context:** To successes checked for open source Software components.
+**Primary Actor:** Developer
 
-**Stakeholders:** Developer / Manager.
+**Goal in Context:** Developer wants to get the license information of the submitted software package. 
 
-**Preconditions:** The Developer send request to checked for open source Software components to receive result from NIST Vulnerability DB.
+**Stakeholders:** Developer / Manager 
 
-**Main Success Scenario:** Developer get the software package Results from the NIST Vulnerability DB. 
+**Preconditions:** There is some Software Package used by developer in a project. Software Package License service is running.
 
-**Failed End Conditions:** Developer not get the result from the NIST Vulnerability DB.
+**Main Success Scenario:** Developer request for Software Package License is successfully accepted and developer obtains the license details. 
 
-**Trigger:** Developer request for software package license.   
+**Failed End Conditions:** No result found against software package.
+
+**Trigger:** Developer request for Software Package License. 
 
 
 #UseCase: 3
 
-**Title:** Determine the  Open Source Software to get  Refer policy. 
+**Title:** Request Policy
 
-**Primary Actor:** Developer.
+**Primary Actor:** Developer
 
-**Goal in Context:** Successes determine open source software. 
+**Goal in Context:** Developer wants to get the information against some policy 
 
-**Stakeholders:** Developer / Manager.
+**Stakeholders:** Developer / Manager 
 
-**Preconditions:** The developer send request to refer policy process to receive from the OSS Policy Datastore.
+**Preconditions:** Policy request is submitted.
 
-**Main Success Scenario:** Developer get the policy DB from the policy process by the OOS Policy Datastore.
+**Main Success Scenario:** Developer gets policy details  
 
-**Failed End Conditions:** Developer not get the policy DB from the policy process by the OOS Policy Datastore.
+**Failed End Conditions:** Policy information is not stored in the policy database.
 
-**Trigger:** Developer request for open source software policy DB.
+**Trigger:** Developer requests a policy. 
+
+
